@@ -13,18 +13,24 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 
-.main-links {
-    display: flex;
-    gap: 40px ; 
-    color: #E5E7EB ;
-    font-size: 18px ;
-    /* font-family: ; */
-    font-family: 'Lato', sans-serif ;
-}
-
 .logo {
     color: #F9FAF8 ; 
     font-size: 48px ;
     font-weight:900 ;
     font-family: 'Prata', serif;
+}
+
+.main-links {
+    display: flex;
+    gap: 40px ; 
+    font-size: 18px ;
+    font-family: 'Lato', sans-serif ;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+    text-decoration: none ;
+    color: #E5E7EB ; 
 }
