@@ -15,7 +15,7 @@ body {
 
 .logo {
     color: #F9FAF8 ; 
-    font-size: 48px ;
+    font-size: 24px ;
     font-weight:900 ;
     font-family: 'Prata', serif;
 }
@@ -34,3 +34,93 @@ a:active {
     text-decoration: none ;
     color: #E5E7EB ; 
 }
+
+.first-content {
+    padding: 100px ; 
+    padding-left: 250px ;
+    padding-right: 250px ;
+    display: flex ; 
+    background-color: #1F2937 ; 
+    gap: 100px ;
+    justify-content: space-between;
+}
+
+.main-heading {
+    color : #F9FAF8 ; 
+    font-size: 48px ; 
+    font-weight: 900 ;
+    font-family: 'Prata', serif;
+    margin-bottom: 10px ;
+}
+
+.sub-text,
+.extra {
+    font-size: 18px ; 
+    color: #E5E7EB ;
+    font-family: 'Lato', sans-serif ;
+    margin-bottom: 10px ;
+}
+
+.button {
+    background-color: #3882F6 ;
+    font-size: 18px ; 
+    color: #E5E7EB ;
+    font-family: 'Lato', sans-serif ;
+    font-weight: 600;
+    padding: 10px ;
+    border-radius: 8px ;
+    border: 0 ;
+}
+
+.second-content {
+    display: flex ; 
+    flex-direction: column ; 
+    padding: 100px ; 
+    padding-left: 250px ; 
+    padding-right: 250px ;
+    align-items: center ;
+}
+
+.content-header {
+    font-family: 'Prata', serif ;
+    font-size: 36px ;
+    font-weight: 900 ;
+    color: #1F2937 ;
+    margin-bottom: 30px ;
+}
+
+.pictures {
+    display: flex ; 
+    flex-direction: row ; 
+    justify-content: space-between ; 
+    /* gap: 100px ;  */
+    flex: 1 ; 
+    margin-top: 40px ;
+}
+
+/* .pic {
+    width: 225px ; 
+    height: 225px ; 
+    border: 2px ; 
+    border-color: #3882F6;
+    border-radius: 2px ;
+    display:  flex ; 
+   
+}
+
+.information {
+    display: flex ; 
+    flex-direction: column ; 
+    align-items: center ;
+    flex: 1 ; 
+}
+
+.extra {
+    color : #1F2937 ;
+    font-size: 20px ; 
+}
+
+.uf {
+    width: 223px ; 
+    height: 223px ; 
+} */
